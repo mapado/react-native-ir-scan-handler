@@ -3,12 +3,12 @@
 ## What is it for ?
 
 This package allows handling standard IR scanners input on android in a React Native app.
-The IR scanner should be set to send either KeyDown, KeyUp or KeyMultiple events.
+The IR scanner should be set to send either KeyDown, KeyUp or KeyMultiple events. It depends on react-native-keyevent, therefore, you should follow android installation instructions here: https://github.com/kevinejohn/react-native-keyevent
 
 ## Installation
 
 ```
-yarn add react-native-reset-focus
+yarn add react-native-ir-scan-handler
 ```
 
 ### Configuration
