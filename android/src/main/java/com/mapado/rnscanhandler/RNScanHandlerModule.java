@@ -50,6 +50,11 @@ public class RNScanHandlerModule extends ReactContextBaseJavaModule {
         this.keyMultipleEndKeyCode = keyCode;
     }
 
+    @ReactMethod
+    public void disableKeyMultipleEndKeyCode() {
+        this.keyMultipleEndKeyCode = null;
+    }
+
     public void dispatchKeyEvent(KeyEvent event) {
         if (!this.enabled) {
             return;

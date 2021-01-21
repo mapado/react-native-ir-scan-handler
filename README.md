@@ -42,6 +42,7 @@ import KeyEvent, {
   setEnabled,
   setRequestFocus,
   setKeyMultipleEndKeyCode,
+  disableKeyMultipleEndKeyCode,
 } from 'react-native-scan-handler';
 
 class ScanHandler extends PureComponent {
@@ -77,7 +78,7 @@ class ScanHandler extends PureComponent {
   componentWillUnmount() {
     setEnabled(false); // disables the module
     setRequestFocus(false);
-    setKeyMultipleEndKeyCode(null);
+    disableKeyMultipleEndKeyCode();
 
      // if you are listening to keyUp
     KeyEvent.removeKeyUpListener();
