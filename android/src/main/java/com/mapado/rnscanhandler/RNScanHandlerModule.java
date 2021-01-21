@@ -45,6 +45,7 @@ public class RNScanHandlerModule extends ReactContextBaseJavaModule {
         this.requestFocus = requestFocus;
     }
 
+    @ReactMethod
     public void setKeyMultipleEndKeyCode(int keyCode) {
         this.keyMultipleEndKeyCode = keyCode;
     }
