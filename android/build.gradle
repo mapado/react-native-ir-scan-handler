@@ -32,5 +32,5 @@ repositories {
 
 dependencies {
     implementation project(':react-native-keyevent')
-    compile 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.react:react-native:+'
 }
