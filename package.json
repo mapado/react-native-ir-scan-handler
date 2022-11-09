@@ -12,7 +12,7 @@
   "author": "",
   "license": "",
   "peerDependencies": {
-    "react-native": "^0.60",
+    "react-native": "^0.70",
     "react-native-keyevent": "^0.2.8"
   }
 }
